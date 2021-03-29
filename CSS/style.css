@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+body{
+  min-width: 1370px;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 1057px;
+  background-image: url("https://github.com/Nean-As/protjec/blob/main/Photo.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #c7cccf;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  box-sizing: border-box;
+  display: flex;
+  width: 940px;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-logo {
+  width: 140px;
+  height: 74px;
+  background-color: #fa5c65;
+  border-radius: 0 0 10px 10px;
+  text-align: center; 
+}
+
+.logo {
+  display: block;
+  font-family: 'Domine', serif;
+  margin-top: 40px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.sup {
+  font-size: 5px;
+  color: #263742;
+  vertical-align: sub;
+}
+
+.menu-list {
+  margin: 0;
+  padding-top: 29px;
+}
+
+.menu-list-item {
+  display: inline-block;
+}
+
+.menu-list-item:nth-child(n + 2) {
+  margin-left: 34px;
+}
+
+.menu-link {
+  font-family: Arial;
+  font-size: 14px;
+  color: #263742;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 5px;
+}
+
+.menu-link:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 9px 9px 9px 9px;
+  background-color: #fa5c65;
+}
+
+@font-face {
+  font-family: monserrat-bold;
+  src: url(https://github.com/Nean-As/protjec/blob/main/montserratbold.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: monserrat-regular;
+  src: url(https://github.com/Nean-As/protjec/blob/main/montserratlight.ttf?raw=true);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials-items {
+  list-style-type: none;
+}
+
+.socials-link-twitter {
+  fill:#fa5c65;
+  display: block;
+  width: 20px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.socials-link-facebook {
+  display: block;
+  width: 10px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.socials-link-twitter {
+  background-image: url("../SVG/004-twitter.svg");
+  color:#fa5c65;
+}
+
+.socials-link-facebook {
+  background-image: url("../SVG/002-facebook-logo.svg");
+  fill:#fa5c65;
+}
+
+.socials-link-text {
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+}
+
+.header-titles {
+  margin-top: 307px;
+  margin-left: 228px;
+  width: 509px;
+}
+
+.header-title {
+  font-size: 47px;
+  font-family: Arial;
+  text-transform: uppercase;
+  color: #263742;
+}
+
+.dot {
+  font-family: Arial;
+  color: #fa5c65;
+}
+
+.header-title-little {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #263742;
+}
+
+.submit {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: monserrat-bold;
+  margin-top: 18px;
+  width: 150px;
+  height: 48px;
+  border: none;
+  color: white;
+  background-color: #fa5c65;
+  
+}
+
+.container {
+  width: 940px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+.post-lists {
+  display: flex;
+}
+
+.post-list {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 300px;
+}
+
+.post-title {
+  width: 258px;
+  font-family: Arial;
+  font-size: 26px;
+  color: #263742;
+  text-transform: uppercase;
+}
+
+.post-text {
+  width: 254px;
+  font-family: Arial;
+  color: #b5b9c1;
+}
+
+.title-link {
+  font-family: Arial;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fa5c65;
+}
+
+.post-title-link {
+  background-image: url("https://github.com/Nean-As/protjec/blob/main/Arrow.png?raw=true");
+  background-repeat: no-repeat;
+  background-position: 50px;
+}
+.s {
+  width: 12px;
+  height: 9px; 
+  background-image: url("https://github.com/Nean-As/protjec/blob/main/Arrow.png?raw=true");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.portfolio {
+  display: flex;
+}
+
+.portfolio-list {
+  width: 380px;
+}
+
+.portfolio-title {
+  width: 365px;
+  font-family: Arial;
+  font-size: 26px;
+  color: #263742;
+  text-transform: uppercase;
+}
+
+.portfolio-sub-titile {
+  font-family: Arial;
+  color: #263742;
+}
+
+.portfolio-text {
+  font-family: Arial;
+  color: #b5b9c1;
+}
+
+.portfolio-titles-link {
+  background-image: url("https://github.com/Nean-As/protjec/blob/main/Arrow.png?raw=true");
+  background-repeat: no-repeat;
+  background-position: 50px;
+}
+
+.portfolio-title-link {
+  font-family: Arial;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fa5c65;
+}
+
+.our-teams {
+  display: flex;
+}
+
+.team {
+  display: flex;
+}
+
+.teams-title {
+  font-family: Arial;
+  font-size: 26px;
+  color: #263742;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.taems-slogan {
+  font-family: Arial;
+  color: #b5b9c1;
+  margin-top: 5px;
+}
+
+.team {
+  width: 290px;
+  padding-right: 20px;
+  
+}
+.team-info {
+  width: 145px;
+  padding-left: 20px;
+}
+
+.team-name {
+  font-family: Arial;
+  font-size: 20px;
+  color: #263742;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.team-sub-title {
+  font-family: Arial;
+  color: #fa5c65;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.team-text {
+  font-family: Arial;
+  font-size: 14px;
+  color: #b5b9c1;
+  margin-top: 8px;
+}
+
+p {
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  border-top: 1px solid #b9c0c6;
+  padding: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
