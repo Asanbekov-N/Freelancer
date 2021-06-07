@@ -240,7 +240,7 @@ body {
   fill: #fa5c65;
   display: block;
   width: 20px;
-  height: 16px;
+  height: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -258,9 +258,15 @@ body {
 .socials-link-twitter {
   color: #fa5c65;
 }
+.socials-link-twitter:hover {
+  fill: #5694f1;
+}
 
 .socials-link-facebook {
   fill: #fa5c65;
+}
+.socials-link-facebook:hover {
+  fill: #0f69df;
 }
 
 .socials-link-text {
@@ -296,6 +302,9 @@ body {
   border: none;
   color: white;
   background-color: #fa5c65;
+}
+.submit:hover {
+  background-color: #263742;
 }
 
 .header:hover {
