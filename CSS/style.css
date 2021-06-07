@@ -248,20 +248,18 @@ body {
 
 .socials-link-facebook {
   display: block;
-  width: 10px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .socials-link-twitter {
-  background-image: url("../SVG/004-twitter.svg");
   color: #fa5c65;
 }
 
 .socials-link-facebook {
-  background-image: url("../SVG/002-facebook-logo.svg");
   fill: #fa5c65;
 }
 
@@ -300,8 +298,8 @@ body {
   background-color: #fa5c65;
 }
 
-.submit:hover + .header {
-  background-image: url(../SVG/);
+.header:hover {
+  background-image: url("https://github.com/Nean-As/protjec/blob/main/back-g-h.png?raw=true")
 }
 
 .post-lists {
